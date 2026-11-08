@@ -1,0 +1,10 @@
+project_name = "saa-scalable-web"
+region       = "us-east-1"
+
+# Cheaper for demos (1 NAT instead of 2). Set false to show full HA.
+single_nat_gateway = false
+
+alert_email = "you@example.com"
+
+# Optional: your Route 53 public hosted zone. Leave "" to skip custom DNS/HTTPS.
+domain_name = ""
